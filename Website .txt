@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    .blog-post {
+      background-color: white;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .blog-post h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #ecf0f1;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Professional Blog</h1>
+    <p>Insights, tutorials, and stories</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#blog">Blog</a>
+  </nav>
+
+  <div class="container">
+    <section id="home">
+      <h2>About This Site</h2>
+      <p>This is a simple, professional blog website built with clean HTML and CSS. You can easily add more blog posts as you go.</p>
+    </section>
+
+    <section id="blog">
+      <h2>Latest Blog Posts</h2>
+
+      <div class="blog-post">
+        <h2>How I Started Blogging</h2>
+        <p><em>August 21, 2025</em></p>
+        <p>Starting a blog can be both exciting and intimidating. In this post, I share why I started blogging and how I chose a platform to begin with...</p>
+      </div>
+
+      <div class="blog-post">
+        <h2>Top 5 Tools for Web Developers</h2>
+        <p><em>August 18, 2025</em></p>
+        <p>Web development has come a long way. Here are 5 tools I use daily that streamline my workflow and boost productivity...</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
